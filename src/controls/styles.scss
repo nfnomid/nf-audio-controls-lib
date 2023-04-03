@@ -1,0 +1,24 @@
+$main-color: #3c2f2f;
+$color-1: #be9b7b;
+$color-2: #edded1;
+$color-3: #fff4e6;
+$color-4: #854442;
+$width: 50px;
+
+.control-wrapper {
+  width: $width;
+  height: $width;
+}
+
+.control {
+  width: $width;
+  height: $width;
+  &__handle {
+    fill: $main-color;
+  }
+  &__progress {
+    fill: transparent;
+    stroke: $color-4;
+    stroke-linecap: round;
+  }
+}
